@@ -1,0 +1,85 @@
+.shopping-list {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  margin: auto;
+}
+
+.shopping-list h1 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.shopping-list .form-group {
+  margin-bottom: 15px;
+}
+
+.shopping-list label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.shopping-list select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.shopping-list .quantity-button {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 15px;
+}
+
+.shopping-list .quantity-button button {
+  background-color: #d0d0d0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.shopping-list .quantity-button span {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 0 10px;
+}
+
+.shopping-list .button-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.shopping-list .btn {
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  border: none;
+}
+
+.shopping-list .btn-primary {
+  background-color: #007bff;
+  color: white;
+}
+
+.shopping-list .btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.shopping-list .btn-success {
+  background-color: #28a745;
+  color: white;
+}
+
+.shopping-list .btn-success:hover {
+  background-color: #218838;
+}
